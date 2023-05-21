@@ -23,13 +23,13 @@ To get started with this project, follow the instructions below.
    <https>
 2. Change into the project directory:
 
-  ``bash
-  cd Circle-CI-Integration`
+   ``bash
+   cd Circle-CI-Integration`
 
 3. Install dependencies:
 
-  ``bash
-  npm install
+   ``bash
+   npm install
 
 5. CircleCI Integration
 This repository is integrated with CircleCI to automate the build and test processes.
