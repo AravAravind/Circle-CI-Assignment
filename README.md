@@ -32,20 +32,19 @@ To get started with this project, follow the instructions below.
    npm install
 
 5. CircleCI Integration
-This repository is integrated with CircleCI to automate the build and test processes.
+   This repository is integrated with CircleCI to automate the build and test processes.
 
-Configuration
-The CircleCI configuration file (.circleci/config.yml) in this repository specifies the jobs and workflows to be executed on each commit pushed to the main branch. It includes the following steps:
+   Configuration
+   The CircleCI configuration file (.circleci/config.yml) in this repository specifies the jobs and workflows to be executed on each commit pushed to the main branch. It includes the following steps:
 
-Add your React code
-Install dependencies
-Run tests
+   Add your React code
+   Install dependencies
 
-Usage
-Create a CircleCI account (if you don't have one already) and link your GitHub repository to CircleCI.
+   Usage
+   Create a CircleCI account (if you don't have one already) and link your GitHub repository to CircleCI.
 
-Once the repository is linked, any commit pushed to the main branch will trigger a CircleCI build automatically.
+   Once the repository is linked, any commit pushed to the main branch will trigger a CircleCI build automatically.
 
-CircleCI will run the defined jobs and workflows specified in the configuration file.
+   CircleCI will run the defined jobs and workflows specified in the configuration file.
 
-If the tests fail, the build will fail, and you will be notified.
+   If the tests fail, the build will fail, and you will be notified.
