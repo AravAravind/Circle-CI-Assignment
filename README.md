@@ -1,17 +1,51 @@
+# Circle-CI-Integration
 
-CircleCI Configuration
-This is a sample CircleCI configuration file for building and testing a Node.js application.
+This repository is integrated with CircleCI for automated building and testing.
 
-Jobs
-Build
-The build job builds the application by installing dependencies and running the npm run build command.
+## Prerequisites
 
-Test
-The test job runs the application's tests by installing dependencies and running the npm run test command.
+To work with this project, you need the following prerequisites:
 
-Workflows
-Build and Test
-The build-and-test workflow runs the build job first and then the test job. The test job is dependent on the successful completion of the build job.
+- Git
+- Node.js
+- CircleCI account
 
-Orbs
-The node orb version 3.0.0 is used in this configuration for defining Docker images for running jobs.
+## Getting Started
+
+To get started with this project, follow the instructions below.
+
+### Installation
+
+1. Clone the repository:
+
+   ``bash
+   git clone https://github.com/AravAravind/Circle-CI-Integration.git
+   <https>
+2. Change into the project directory:
+
+  ``bash
+  cd Circle-CI-Integration`
+
+3. Install dependencies:
+
+  ``bash
+  npm install
+
+5. CircleCI Integration
+This repository is integrated with CircleCI to automate the build and test processes.
+
+Configuration
+The CircleCI configuration file (.circleci/config.yml) in this repository specifies the jobs and workflows to be executed on each commit pushed to the main branch. It includes the following steps:
+
+Add your React code
+Install dependencies
+Run tests
+
+Usage
+Create a CircleCI account (if you don't have one already) and link your GitHub repository to CircleCI.
+
+Once the repository is linked, any commit pushed to the main branch will trigger a CircleCI build automatically.
+
+CircleCI will run the defined jobs and workflows specified in the configuration file.
+
+If the tests fail, the build will fail, and you will be notified.
